@@ -18,7 +18,7 @@ loss = get_config_value("config.conf", "Hyperparameters Settings", "loss")
 learning_rate = float(get_config_value("config.conf", "Hyperparameters Settings", "learning_rate"))
 epochs = int(get_config_value("config.conf", "Hyperparameters Settings", "epochs"))
 n_words = int(get_config_value("config.conf", "Hyperparameters Settings", "n_words"))
-summary = get_config_value("config.conf", "Hyperparameters Settings", "summary")
+summary = True  # Do you want summary of the model?
 model_codename = get_config_value("config.conf", "Hyperparameters Settings", "model_codename")
 
 # Tokenize and preprocess the text
